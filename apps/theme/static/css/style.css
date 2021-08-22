@@ -2,10 +2,13 @@
     font-family: Arial, Helvetica, sans-serif;
     width:800px;
     margin:auto;
+    ;
 }
-
+p,li,#user {
+    color: rgb(181, 245, 236);
+}
 a { 
-    color:#0000EE;
+    color:#FFF;
     text-decoration:none;
 }
 
@@ -14,3 +17,11 @@ a:hover {
 }
 
 #user {float:right; }
+
+body {
+    background: url(../images/background_image.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 50;
+    height: 100vh;
+  }
