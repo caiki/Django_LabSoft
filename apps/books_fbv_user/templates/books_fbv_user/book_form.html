@@ -2,7 +2,7 @@
 
 {% block content %}
 
-<h2><a href="{% url 'books_fbv_user:book_list' %}">Books FBV User</a>: Edit</h2>
+<h2 id="tcolor"><a href="{% url 'books_fbv_user:book_list' %}">Livros do usuário</a>: Editar</h2>
 
 <form method="post">{% csrf_token %}
     {{ form.as_p }}

@@ -2,10 +2,10 @@
 
 {% block content %}
 
-<h2><a href="{% url 'books_fbv_user:book_list' %}">Books FBV User</a>: Delete?</h2>
+<h2 id = "tcolor"><a href="{% url 'books_fbv_user:book_list' %}">Livros do usuário</a>: Deletar?</h2>
 
-<form method="post">{% csrf_token %}
-    Are you sure you want to delete "{{ object }}" ?<br/>
+<form method="post"  id = "tcolor">{% csrf_token %}
+    Tem certeza de que deseja deletar "{{ object }}" ?<br/>
     <input type="submit" value="Delete" />
 </form>
 

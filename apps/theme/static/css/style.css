@@ -4,7 +4,7 @@
     margin:auto;
     ;
 }
-p,li,#user {
+p,li,label, #tcolor{
     color: rgb(181, 245, 236);
 }
 a { 
@@ -16,7 +16,10 @@ a:hover {
     text-decoration:underline;
 }
 
-#user {float:right; }
+#user {
+    float:right; 
+    color: rgb(181, 245, 236); 
+}
 
 body {
     background: url(../images/background_image.jpg); 

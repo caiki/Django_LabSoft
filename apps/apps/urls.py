@@ -5,7 +5,6 @@ import theme.views
 
 urlpatterns = [
     path('', theme.views.home),
-    path('books_cbv/', include('books_cbv.urls')),
     path('books_fbv/', include('books_fbv.urls')),
     path('books_fbv_user/', include('books_fbv_user.urls')),
 
