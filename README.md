@@ -4,7 +4,7 @@ This is a small Django project to demonstrate Django CRUD functionality, it
 consist of 3 small applications:
 
 
-[comment]: <>- books\_fbv: Implement CRUD using FBV (Function Based Views).
+[//]:- books\_fbv: Implement CRUD using FBV (Function Based Views).
 - books\_fbv\_user: add user interaction to books\_fbv example.
 
 
