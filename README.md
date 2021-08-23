@@ -1,43 +1,37 @@
-# Django CRUD Example Apps
+# Django CRUD Exemplo 
 
-This is a small Django project to demonstrate Django CRUD functionality, it
-consist of 3 small applications:
+O seguinte projeto em Django mostra as funcionalidades do CRUD , onde principalmente se trabalha com vistas baseadas em funções:
 
-
-[//]:- books\_fbv: Implement CRUD using FBV (Function Based Views).
 - books\_fbv\_user: add user interaction to books\_fbv example.
 
+## Instale os pacotes necessários
 
-## Install Required Packages
-
-The Django CRUD project only need a single Python package "Django", it was built and
-tested with Django 2.x version. To install it use the following command:
+O projeto atual Django CRUD só precisa de um único pacote Python "Django", ele foi construído e testado com a versão Django 2.x. Para instalá-lo, use o seguinte comando:
 
     pip install -r requirements.txt
 
-Django 2 requires Python 3, if you need help setting up Python 3 on your machine you can consult
-DigitalOcean great documentation on 
-[How To Install and Set Up a Local Programming Environment for Python 3](https://www.digitalocean.com/community/tutorial_series/how-to-install-and-set-up-a-local-programming-environment-for-python-3)
 
-## Running the Application
+Django 2 requer Python 3, se você precisar de ajuda para configurar Python 3 em sua máquina, você pode consultar a excelente documentação DigitalOcean sobre
+[Como instalar e configurar um ambiente de programação local para Python 3] (https://www.digitalocean.com/community/tutorial_series/how-to-install-and-set-up-a-local-programming-environment- for-python-3)
 
-Before running the application we need to create the needed DB tables:
+## Executando o aplicativo
+
+Antes de executar o aplicativo, precisamos criar as tabelas de banco de dados necessárias:
 
     ./manage.py migrate
 
-Now you can run the development web server:
+Agora você pode executar o servidor de desenvolvimento da web:
 
     ./manage.py runserver
 
-To access the applications go to the URL <http://localhost:8000/>
+Para acessar no aplicativo vá para o URL <http://localhost:8000/>
 
 
-## I need a user and password to access "books\_fbv\_user"
+## Preciso de um usuário e senha para acessar "books\_fbv\_user"
 
-Yes, the "books\_fbv\_user" demonstrate how CRUD can work with Django users, and you do
-need to create a user to test it, you can create a user using the following command:
-
+Sim, os "books\_fbv\_user" demonstram como CRUD pode funcionar com usuários Django, e você precisa criar um usuário para testá-lo,
+você pode criar um usuário usando o seguinte comando:
     ./manage.py createsuperuser
 
-To create a normal user (non super user), you must login to the admin page and
-create it: <http://localhost:8000/admin/>
+Para criar um usuário normal (não superusuário), você deve fazer login na página de administração e criá-lo
+: <http://localhost:8000/admin/>
